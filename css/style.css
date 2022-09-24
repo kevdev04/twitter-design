@@ -1,0 +1,205 @@
+:root{
+    --font:'Rubik', sans-serif;
+    --colorfont: #E7E9EA;
+    --colorbutton: #0095F6;
+    --bg: #080808;
+    --container: #FFFFFF;
+}
+
+/* globals */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; 
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 0vh;
+    background-color: var(--bg);
+}
+img {
+    max-width: 100%;
+    display: block;
+
+}
+
+/* globals */
+
+.grid-all {
+    display: grid;
+    grid-template-columns: 20rem 50rem 35rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+/* Nav */
+
+.inicio{
+    color:var(--colorfont);
+    font-family: var(--font);
+}
+
+.navs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: var(--colorfont);
+    font-family: var(--font);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+
+    gap: 3rem;
+}
+
+/* Main News */
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: var(--colorfont);
+    font-family: var(--font);
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    gap: 0rem;
+}
+
+/* thoughts */
+
+.think {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    color: var(--colorfont);
+    font-family: var(--font);
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.thoughts {
+    color: var(--colorfont);
+    font-family: var(--font);
+    text-decoration: none;
+    font-size: 2.6rem;
+    font-weight: 400;
+
+    background-color: var(--bg);
+    width: 35rem;
+    height: 3rem;
+    border-style: none;
+
+}
+/* tweet images */
+/* si lees esto la verdad no se nombrar las clases una sincera disculpa */
+
+.t-img {
+    max-height: 20rem;
+    max-width: 25rem;
+
+    border-radius: 1rem;
+}
+
+/* profile pics */
+
+.pp {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+/* standart tweet */
+
+.st {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid #393944;
+    border-radius: .1rem;
+    width: 50rem;
+    min-height: 10rem;
+    max-height: 30rem;
+    gap: 1rem;
+    
+}
+.st-wi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #393944;
+    border-radius: .1rem;
+    width: 50rem;
+    min-height: 10rem;
+    max-height: 30rem;
+    gap: 1rem;
+}
+
+/* aside */
+
+.aside {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+
+.finder {
+    border-radius: 2rem;
+    background-color: #202327;
+
+    width: 25rem;
+    height: 3.5rem;
+
+    color: var(--colorfont);
+
+    font-size: 2.2rem;
+    font-family: var(--font);
+    text-indent: 1rem;
+
+    border: 2px solid #393944;
+}
+
+.aside__title {
+    color: var(--colorfont);
+
+    font-family: var(--font);
+    font-size: 2.4rem;
+}
+
+.aside__news {
+
+}
+
+.aside__news__font {
+    color: var(--colorfont);
+    font-family: var(--font);
+
+}
