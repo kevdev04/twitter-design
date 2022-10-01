@@ -57,7 +57,12 @@ img {
     color:var(--colorfont);
     font-family: var(--font);
 }
-
+.logo {
+    font-size: 7rem;
+    color: var(--container);
+    font-weight: 700;
+    font-family: var(--font);
+}
 .navs {
     display: flex;
     justify-content: center;
